@@ -1,0 +1,304 @@
+{
+  "app_info": {
+    "version": "v2025.10.18 (Online)",
+    "appName": "FX Flow Tool",
+    "purchase_button_text": "Chưa có tài khoản? Mua tại đây"
+  },
+  "links": {
+    "api_endpoint": "https://fx-flow-server.vercel.app/api/auth",
+    "purchase_url": "https://zalo.me/0364976679",
+    "target_url": "https://labs.google/fx/vi/tools/flow"
+  },
+  "selectors": {
+    "NEW_PROJECT_BUTTON_XPATH": "//button[.//i[normalize-space(text())='add_2']] | (//button[.//i[normalize-space(.)='add_2']])",
+    "MODE_DROPDOWN_XPATH": "//button[@role='combobox' and .//i[text()='arrow_drop_down']]",
+    "IMAGE_TO_VIDEO_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='photo_spark']]",
+    "TEXT_TO_VIDEO_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='text_analysis']]",
+    "PROMPT_TEXTAREA_ID": "PINHOLE_TEXT_AREA_ELEMENT_ID",
+    "GENERATE_BUTTON_XPATH": "//button[.//i[text()='arrow_forward']] | (//button[.//i[normalize-space(text())='arrow_forward']])",
+    "INITIAL_OVERLAY_DIV_XPATH": "//div[contains(@class, 'kSkErZ')]",
+    "SETTINGS_BUTTON_XPATH": "//button[.//div[contains(., 'Veo')] and .//i[normalize-space(text())='volume_up' or normalize-space(text())='volume_off']]",
+    "OUTPUT_NUMBER_BUTTON_XPATH": "//button[@role='combobox' and .//span[not(.//i) and (normalize-space(.)='1' or normalize-space(.)='2' or normalize-space(.)='3' or normalize-space(.)='4')]]",
+    "OUTPUT_NUMBER_ONE_XPATH": "//div[@role='option' and .//span[text()='1']]",
+    "OUTPUT_NUMBER_TWO_XPATH": "//div[@role='option' and .//span[text()='2']]",
+    "OUTPUT_NUMBER_THREE_XPATH": "//div[@role='option' and .//span[text()='3']]",
+    "OUTPUT_NUMBER_FOUR_XPATH": "//div[@role='option' and .//span[text()='4']]",
+    "MODEL_SELECTION_BUTTON_XPATH": "//button[@role='combobox' and .//span[not(.//i)] and contains(normalize-space(),'Veo')]",
+    "MODEL_VEO_3_FAST_XPATH": "//div[@role='option' and contains(., 'Veo 3.1 - Fast')]",
+    "MODEL_VEO_2_FAST_XPATH": "//div[@role='option' and contains(., 'Veo 2 - Fast')]",
+    "MODEL_VEO_3_QUALITY_XPATH": "//div[@role='option' and contains(., 'Veo 3.1 - Quality')]",
+    "MODEL_VEO_2_QUALITY_XPATH": "//div[@role='option' and contains(., 'Veo 2 - Quality')]",
+    "ASPECT_RATIO_DROPDOWN_XPATH": "//button[@role='combobox' and .//i[normalize-space(text())='crop_portrait' or normalize-space(text())='crop_landscape']]",
+    "LANDSCAPE_ASPECT_RATIO_XPATH": "//div[@role='option' and .//i[normalize-space(text())='crop_landscape']]",
+    "PORTRAIT_ASPECT_RATIO_XPATH": "//div[@role='option' and .//i[normalize-space(text())='crop_portrait']]",
+    "START_IMAGE_ADD_BUTTON_XPATH": "(//button[.//div[@data-type='button-overlay'] and .//i[text()='add']])[1]",
+    "END_IMAGE_ADD_BUTTON_XPATH": "(//button[.//div[@data-type='button-overlay'] and .//i[text()='add']])[2]",
+    "HIDDEN_FILE_INPUT_XPATH": "//input[@type='file']",
+    "UPLOAD_SPINNER_XPATH": "//i[contains(text(), 'progress_activity')]",
+    "IMAGE_CROP_RATIO_DROPDOWN_XPATH": "//button[@role='combobox' and .//i[normalize-space(text())='arrow_drop_down'] and .//i[normalize-space(text())='crop_9_16' or normalize-space(text())='crop_16_9']]",
+    "IMAGE_CROP_RATIO_PORTRAIT_XPATH": "//div[@role='option' and .//i[normalize-space(text())='crop_9_16']]",
+    "IMAGE_CROP_RATIO_LANDSCAPE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='crop_16_9']]",
+    "CROP_AND_SAVE_BUTTON_XPATH": "//button[.//i[normalize-space(text())='crop']]",
+    "RESULT_CONTAINER_XPATH": "//div[@data-index and @data-item-index]",
+    "PROMPT_IN_CONTAINER_XPATH": ".//button[normalize-space(.) != '' and following-sibling::div//text()[contains(., 'Veo')]]",
+    "VIDEOS_IN_CONTAINER_XPATH": ".//video[starts-with(@src, 'http')]",
+    "IMAGE_POLICY_ERROR_POPUP_XPATH": "//li[@data-sonner-toast and .//i[normalize-space(text())='error']]",
+    "PROMPT_POLICY_ERROR_POPUP_XPATH": "//li[@data-sonner-toast and .//i[normalize-space(text())='error']]",
+    "DOWNLOAD_BUTTON_IN_VIDEO_XPATH": ".//button[.//i[normalize-space()='download']]",
+    "DOWNLOAD_GIF_OPTION_XPATH": "//div[@role='menuitem' and .//i[normalize-space()='gif_box']]",
+    "DOWNLOAD_1080P_OPTION_XPATH": "//div[@role='menuitem' and .//i[normalize-space()='aspect_ratio']]",
+    "DOWNLOAD_POPUP_XPATH": "//li[@data-sonner-toast and .//a[contains(text(), 'Tải xuống')]]",
+    "DOWNLOAD_BUTTON_IN_POPUP_XPATH": ".//a[contains(text(), 'Tải xuống')]",
+    "CLOSE_BUTTON_IN_POPUP_XPATH": ".//button[contains(text(), 'Đóng')]",
+    "NOTIFICATION_POPUP_XPATH": "//li[@data-sonner-toast and .//button[contains(text(), 'Đóng')] and not(.//a[contains(text(), 'Tải xuống')])]",
+    "GRID_VIEW_BUTTON_XPATH": "(//button[@role='radio' and .//i[normalize-space(text())='grid_on']]) | (//button[.//i[normalize-space(.)='grid_view']])",
+    "UPGRADE_VIDEO_CONTAINER_XPATH": "./ancestor::div[contains(@class, 'sc-ad287003-0')]"
+  },
+  "settings_defaults": {
+    "wait_time_min": 50,
+    "wait_time_max": 80,
+    "start_from": 1,
+    "image_limit": 0,
+    "available_sort_orders": [
+      "A-Z",
+      "Cũ nhất",
+      "Mới nhất"
+    ],
+    "available_aspect_ratios": [
+      "Khổ ngang (16:9)",
+      "Khổ dọc (9:16)"
+    ],
+    "available_models": [
+      "Veo 3.1 - Fast",
+      "Veo 2 - Fast",
+      "Veo 3.1 - Quality",
+      "Veo 2 - Quality"
+    ],
+    "available_video_counts": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "available_modes": [
+      "Ảnh sang video",
+      "Văn bản sang video"
+    ],
+    "default_model": "Veo 3.1 - Fast"
+  },
+  "feature_flags": {
+    "enable_history_tab": true,
+    "enable_log_tab": true,
+    "enable_retry_errors_button": true,
+    "enable_headless_mode": true,
+    "enable_1080p_download": false,
+    "enable_gif_download": false
+  },
+  "timing_settings": {
+    "webdriver_wait_timeout": 30,
+    "heartbeat_interval_minutes": 3,
+    "final_scan_duration_seconds": 300,
+    "api_timeout_seconds": 15
+  },
+  "ui_texts": {
+    "login_title": "FX Flow Tool - Đăng nhập",
+    "login_header": "Đăng nhập tài khoản",
+    "login_phone_label": "Số điện thoại:",
+    "login_code_label": "Mã kích hoạt:",
+    "login_remember_me": "Lưu tài khoản",
+    "login_button": "Đăng nhập",
+    "login_button_checking": "Đang kiểm tra...",
+    "login_invalid_credentials_body": "Thông tin không hợp lệ.",
+    "nav_title": "FX FLOW TOOL",
+    "nav_setup": "  Cấu hình",
+    "nav_input": "  Đầu vào",
+    "nav_manager": "  Quản lý",
+    "nav_history": "  Lịch sử",
+    "nav_log": "  Nhật ký",
+    "online_status_format": "Số lượng online: {current}/{limit}",
+    "setup_group_title": "Thiết lập Kết nối",
+    "input_group_title": "Tùy chọn Tác vụ",
+    "image_source_group_title": "Hàng chờ Ảnh",
+    "prompt_source_group_title": "Hàng chờ Prompt",
+    "paths_group_title": "Thư mục Lưu",
+    "history_sessions_group_title": "Các phiên chạy",
+    "history_details_group_title": "Chi tiết phiên",
+    "log_details_group_title": "Nhật ký Chi tiết",
+    "log_summary_group_title": "Tóm tắt Nhanh",
+    "run_button": "▶️ Bắt đầu chạy",
+    "pause_button": "⏸️ Tạm dừng",
+    "resume_button": "▶️ Tiếp tục",
+    "retry_button": "🔁 Chạy lại mục lỗi",
+    "stop_button": "⏹️ Dừng",
+    "exit_confirmation_title": "Xác nhận thoát",
+    "exit_confirmation_message": "Tác vụ đang chạy, bạn có chắc muốn thoát?",
+    "no_tasks_to_run_message": "Không có tác vụ nào đang chạy.",
+    "browser_not_connected_message": "Trình duyệt chưa kết nối. Vui lòng vào trang Cấu hình.",
+    "status_connected": "🟢 Đã kết nối",
+    "status_disconnected": "🔴 Chưa kết nối",
+    "stop_button_stopping": "Đang dừng...",
+    "summary_label_default": "Chưa có thông tin.",
+    "summary_format": "Hoàn tất! | ✅ Thành công: {success} | ❌ Thất bại: {fail} | 💾 720p: {downloads_720p} | 💾 1080p/GIF: {downloads_upgraded} | ⏱️ Thời gian: {duration}",
+    "expiry_permanent": "Bản quyền vĩnh viễn",
+    "expiry_date_format": "Hết hạn: {date}",
+    "labels": {
+      "browser": "Trình duyệt:",
+      "cookie": "Cookie:",
+      "cookie_help": "Dán Cookie (JSON) vào đây: <a href=\"https://github.com/duckmartians/cookie-exporter/blob/main/README.md\">(Hướng dẫn cách lấy Cookie)</a>",
+      "run_mode": "Chế độ chạy:",
+      "sort_order": "Sắp xếp thứ tự ảnh:",
+      "start_from": "Bắt đầu từ ảnh / prompt số:",
+      "image_limit": "Số ảnh / thư mục (0=all):",
+      "wait_time": "Chờ tạo video ngẫu nhiên (s):",
+      "aspect_ratio": "Tỷ lệ khung hình:",
+      "model": "Mô hình tạo video:",
+      "video_count": "Số lượng video:",
+      "video_mode": "Chế độ tạo video:",
+      "output_folder": "Thư mục lưu video:",
+      "filter_search": "🔍 Lọc / Tìm kiếm:"
+    },
+    "placeholders": {
+      "cookie_file": "Chọn file cookie.json...",
+      "cookie_text": "Hoặc dán trực tiếp nội dung cookie (định dạng JSON) vào đây...",
+      "folder_drop": "Kéo thả thư mục vào đây...",
+      "prompt_entry": "Nhập prompt tại đây...",
+      "manager_filter": "Nhập prompt, trạng thái..."
+    },
+    "buttons": {
+      "browse_file": "Chọn file...",
+      "launch_connect": "🚀 Khởi chạy && Kết nối",
+      "remove_selected": "🗑️ Xóa mục chọn",
+      "clear_all": "🗑️ Xóa tất cả",
+      "add_prompt": "➕ Thêm",
+      "load_from_file": "📜 Nhập từ file (.txt)",
+      "clear_history": "🗑️ Xóa Lịch sử",
+      "clear_log": "🗑️ Xóa Log",
+      "start_mode_new": "Tạo Project Mới",
+      "start_mode_continue": "Chạy tiếp Project Cũ"
+    },
+    "checkboxes": {
+      "download_720p": "Tải video 720p",
+      "download_1080p": "Tải video 1080p",
+      "download_gif": "Tải ảnh GIF động"
+    },
+    "table_headers": {
+      "manager": [
+        "#",
+        "Ảnh",
+        "Prompt",
+        "Video",
+        "Trạng thái"
+      ],
+      "history": [
+        "#",
+        "Ảnh",
+        "Prompt",
+        "Video Output",
+        "Trạng thái"
+      ]
+    },
+    "dialog_titles": {
+      "image_preview": "Xem trước ảnh",
+      "start_mode": "Chọn chế độ chạy",
+      "confirm_clear_history": "Xác nhận",
+      "file_dialog_image_folder": "Chọn thư mục ảnh",
+      "file_dialog_prompt_file": "Chọn file prompt",
+      "file_dialog_output_folder": "Chọn thư mục lưu video",
+      "file_dialog_cookie_file": "Chọn file cookie"
+    },
+    "dialog_bodies": {
+      "start_mode": "Bạn muốn bắt đầu tác vụ như thế nào?",
+      "confirm_clear_history": "Bạn có chắc muốn xóa toàn bộ lịch sử chạy không?"
+    },
+    "messages": {
+      "login_missing_info": {
+        "title": "Lỗi",
+        "body": "Vui lòng nhập đầy đủ thông tin."
+      },
+      "login_failed": {
+        "title": "Đăng nhập thất bại"
+      },
+      "login_network_error": {
+        "title": "Lỗi mạng",
+        "body": "Không thể kết nối đến máy chủ."
+      },
+      "session_expired": {
+        "title": "Phiên hết hạn",
+        "body": "Vui lòng khởi động lại tool."
+      },
+      "browser_already_open": {
+        "title": "Thông báo",
+        "body": "Trình duyệt đã được mở rồi."
+      },
+      "profile_in_use_error": {
+        "title": "Lỗi Xung đột Profile",
+        "body": "Profile đang được sử dụng.\\n\\nVui lòng ĐÓNG HOÀN TOÀN trình duyệt đã chọn và thử lại."
+      },
+      "webdriver_error": {
+        "title": "Lỗi WebDriver",
+        "body": "Không thể mở trình duyệt.\\n\\nLỗi: {error}"
+      },
+      "launch_error": {
+        "title": "Lỗi khởi chạy",
+        "body": "Không thể mở trình duyệt.\\nLý do: {error}"
+      },
+      "task_running_error": {
+        "title": "Thông báo",
+        "body": "Một tác vụ khác đang chạy."
+      },
+      "no_tasks_for_mode": {
+        "title": "Thông báo",
+        "body": "Không có tác vụ '{mode}' để chạy."
+      },
+      "retry_mode_warning": {
+        "title": "Chức năng hạn chế",
+        "body": "Chạy lại mục lỗi ở chế độ Ảnh-sang-Video sẽ chạy lại toàn bộ các thư mục chứa ảnh lỗi."
+      },
+      "automation_complete": {
+        "title": "Hoàn tất"
+      },
+      "automation_stopped": {
+        "title": "Đã dừng",
+        "body": "Tác vụ đã được dừng bởi người dùng."
+      },
+      "read_file_error": {
+        "title": "Lỗi đọc file",
+        "body": "Không thể đọc file prompt:\\n{error}"
+      },
+      "missing_prompt_error": {
+        "title": "Thiếu thông tin",
+        "body": "Vui lòng thêm ít nhất một prompt vào hàng chờ."
+      },
+      "missing_folder_error": {
+        "title": "Thiếu thông tin",
+        "body": "Chế độ Ảnh-sang-Video yêu cầu ít nhất một thư mục ảnh."
+      },
+      "invalid_cookie_json_error": "Cookie trong ô nhập không phải là định dạng JSON hợp lệ.",
+      "missing_cookie_error": "Vui lòng chọn file cookie hợp lệ hoặc dán cookie vào ô nhập.",
+      "no_cookie_data_error": "Không có dữ liệu cookie để nạp."
+    }
+  },
+  "output_filename_format": {
+    "format": "{index}.{counter}_{timestamp}.mp4"
+  },
+  "startup_message": {
+    "enabled": false,
+    "title": "Thông báo từ Admin",
+    "content": "Hệ thống sẽ được bảo trì."
+  },
+  "enforced_settings": {
+    "enabled": false,
+    "login_method": {
+      "force": "None",
+      "hide_selection": false
+    },
+    "run_mode": {
+      "force": "None",
+      "hide_selection": false
+    },
+    "model": {
+      "force": "None",
+      "hide_selection": false
+    }
+  }
+}
