@@ -19,7 +19,7 @@
     "GENERATE_BUTTON_XPATH": "//button[.//i[text()='arrow_forward']] | (//button[.//i[normalize-space(text())='arrow_forward']])",
     "INITIAL_OVERLAY_DIV_XPATH": "//div[contains(@class, 'kSkErZ')]",
     "SETTINGS_BUTTON_XPATH": "//button[.//div[contains(., 'Veo')] and .//i[normalize-space(text())='volume_up' or normalize-space(text())='volume_off']]",
-    "SETTINGS_BUTTON_XPATH2": "//button[contains(., 'Settings')]",
+    "SETTINGS_BUTTON_XPATH2": "//button[contains(., 'Settings') or contains(., 'Cài đặt')]",
     "OUTPUT_NUMBER_BUTTON_XPATH": "//button[@role='combobox' and .//span[not(.//i) and (normalize-space(.)='1' or normalize-space(.)='2' or normalize-space(.)='3' or normalize-space(.)='4')]]",
     "OUTPUT_NUMBER_ONE_XPATH": "//div[@role='option' and .//span[text()='1']]",
     "OUTPUT_NUMBER_TWO_XPATH": "//div[@role='option' and .//span[text()='2']]",
