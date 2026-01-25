@@ -1,0 +1,50 @@
+SalesforceMobileSDK/8.1.0 iOS/17.7 (iPhone) Kimble/2.1.27(2.1.27.3) Native uid ftr_ Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+SalesforceMobileSDK/8.1.0 iOS/18.0 (iPhone) Kimble/2.1.27(2.1.27.3) Native uid ftr_ Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+SalesforceMobileSDK/8.1.0 iOS/18.1 (iPhone) Kimble/2.1.27(2.1.27.3) Native uid ftr_ Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+Mozilla/5.0 (iPhone; CPU OS 16_3_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.9.6 (like Version/16.3.1 Mobile/20D67 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/18.1 Mobile/22B82 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 16_0_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/16.0.3 Mobile/20A392 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.7 (like Version/18.0.1 Mobile/22A3370 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 15_5 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/15.5 Mobile/19F77 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 17_6_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/6.9.1 (like Version/17.6.1 Mobile/21G93 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 17_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/17.0.2 Mobile/21A350 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/18.2 Mobile/22C5109p Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 16_7_8 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.7.4 (like Version/16.7.8 Mobile/20H343 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 17_6_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.4.3 (like Version/17.6.1 Mobile/21G93 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.9.5 (like Version/18.0.1 Mobile/22A3370 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 17_7_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/17.7.1 Mobile/21H216 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/18.1 Mobile/22B83 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.7.6 (like Version/18.0.1 Mobile/22A3370 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/18.0.1 Mobile/22A3370 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 7.1.2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) 1Password/4.5.3 (like Version/11D257 Mobile/7.1.2 Safari/8536.25)
+Mozilla/5.0 (iPhone; CPU OS 17_7 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.0 (like Version/17.7 Mobile/21H16 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 17_6_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.6.2 (like Version/17.6.1 Mobile/21G93 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.9.9 (like Version/18.1 Mobile/22B83 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 16_5_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/16.5.1 Mobile/20F75 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 17_6_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/17.6.1 Mobile/21G93 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/18.2 Mobile/22C5125e Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 14_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.7 (like Version/14.2 Mobile/18B92 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.1 (like Version/18.1 Mobile/22B83 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 17_5_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.10.2 (like Version/17.5.1 Mobile/21F90 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.9.9 (like Version/18.0.1 Mobile/22A3370 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU OS 18_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/7.3 (like Version/18.1 Mobile/22B83 Safari/600.1.4)
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Cordova-iOS
+Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Cordova
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148/mx_dark app/tencent_wemeet product_id/TM_Product_SDK app_version/3.21.200.108 app_lang/en-us app_instance_id/4/mideaConnect MissonWebKit/240624002/en/com.midea.connect (ServiceNO)/MissonWKCordova
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Cordova-iOS
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148/mideaConnect MissonWebKit/321/zh-Hans/com.longi.e (ServiceNO)/MissonWKCordova
+Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Cordova-iOS
+Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Cordova
+Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Cordova-iOS
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 cordova
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 app/tencent_wemeet product_id/TM_Product_SDK app_version/3.24.100.260 app_lang/en-us app_instance_id/4/mideaConnect MissonWebKit/240906002/en/com.midea.connect (ServiceNO)/MissonWKCordova
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Cordova
+Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iThunder XLCloud(TDMVideo;com.xunlei.mvideo;2.2.12;build:14330;iOS 15.5) Net/WiFiBrowser
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iThunder XLCloud(TDMVideo;com.xunlei.mvideo;2.2.04;build:14255;iOS 16.7.7) Net/WiFiBrowser
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_10 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iThunder XLCloud(TDMVideo;com.xunlei.mvideo;2.2.12;build:14330;iOS 16.7.10) Net/WiFiBrowser
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iThunder XLCloud(TDMVideo;com.xunlei.mvideo;2.2.12;build:14330;iOS 16.7) Net/WiFiBrowser
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iThunder XLCloud(TDMVideo;com.xunlei.mvideo;2.2.12;build:14330;iOS 16.0.3) Net/WiFiBrowser
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iThunder XLCloud(TDMVideo;com.xunlei.mvideo;2.2.11;build:14323;iOS 17.3) Net/WiFiBrowser
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iThunder XLCloud(TDMVideo;com.xunlei.mvideo;2.2.12;build:14330;iOS 16.0.2) Net/WiFiBrowser
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iThunder XLCloud(TDMVideo;com.xunlei.mvideo;2.2.12;build:14330;iOS 16.6.1) Net/WiFiBrowser
+Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iThunder XLCloud(TDMVideo;com.xunlei.mvideo;2.2.12;build:14330;iOS 15.4.1) Net/WiFiBrowser
